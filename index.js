@@ -4,7 +4,7 @@ const pc = newPlayableCharacter(100, 110)
 // Create a non-playable character
 const npc = newNonPlayableCharacter(50, 300)
 
-// have the NPC start walking east immediately
+// have the NPC start walking east immediately, then follow a predetermined track
 npc.walkEast(500, () => {
     npc.walkNorth(1400, () => {
         npc.walkEast(1200, () => {
